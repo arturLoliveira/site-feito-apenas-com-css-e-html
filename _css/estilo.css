@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+video#filme2 {
+    width: 50%;
+    margin-left: 200px;
+}
+video#filme1 {
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#txt {
+    display: block;
+    margin-left: 30%;
+    border-bottom: -30px;
+    top: 10px;
+}
+p {
+    text-align: justify;
+    text-indent: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+body {
+    color: black;
+    font-family: sans-serif;
+    width: 99%;
+    margin-left: 2px;
+}
+/* Configurando o cabeçalho */
+header#cabecalho {
+    border-bottom: 1px solid black;
+    height: 10px;
+}
+header#cabecalho h1 {
+    font-family: sans-serif;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho img#face {
+    position: relative;
+    left: 80%;
+    top: -27px;
+}
+header#cabecalho img#insta {
+    position: relative;
+    left: 80%;
+    top: -23px;
+}
+header#cabecalho img#tt {
+    position: relative;
+    left: 80%;
+    top: -48px;
+}
+div#interface {
+    width: 100%;
+    background-color: lightblue;
+    margin: -10px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 10px 10px 10px;
+}
+/* Configurando o menu*/
+#check {
+    display: none;
+}
+#icone {
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: -5px;
+}
+.barra {
+    background-color: #494950;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all 0.2s linear;
+    left: -300px;
+}
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+nav a {
+    text-decoration: none;
+}
+.link {
+    background-color: gray;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 12pt;
+    transition: all 0.2s linear;
+    color: white;
+    border-bottom: 2px solid black;
+}
+.link:hover {
+    background-color: lightblue;
+}
+#check:checked ~ .barra {
+    transform: translateX(300px);
+}
+/*Configurando o corpo da pagina*/
+section#corpo {
+    display: block;
+    width: 66%;
+    background-color: lightblue;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: -10px;
+    border-right: 1px solid black;
+}
+section#corpo2 {
+    display: block;
+    width: 99.5%;
+    background-color: lightblue;
+    padding-left: 15px;
+    margin-left: -10px;
+    border-right: 1px solid black;
+}
+section#corpo h1 {
+    text-align: justify;
+}
+article#noticia-principal h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: lightblue;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+header#cabecalho-artigo h1 {
+    font-family: sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: black;
+    background-color: lightblue;
+    margin: 0px
+}
+header#cabecalho-artigo h3 {
+    font-size: 12pt;
+    color: #606060;
+} 
+header#cabecalho-artigo {
+    border-bottom: 1px solid #888888;
+}
+.direita {
+    text-align: right;
+}
+/*configurando a nossa tabela*/
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+table#tabelaspec td.cd {
+    background-color: #888888;
+    color: black;
+}
+table#tabelaspec caption {
+    color: black;
+    font-size: 13pt;
+    font-weight: bold;
+}
+table#tabelaspec caption span {
+    display: block;
+    width: 29.9%;
+    float: right;
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 0px;
+}
+/*configurando o aside*/
+aside#lateral {
+    display: block;
+    width: 30%;
+    float: right;
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 0px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+aside#lateral h1 {
+    font-family: Arial, sans-serif;
+    font-size: 20pt;
+    color: black;
+    margin-top: 0px;
+}
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 12pt;
+    color: black;
+    padding: 5px;
+}
+
+
+/* configurando o rodape*/
+footer#rodape {
+    clear: both;
+    border-top: 1px solid black;
+}
+footer#rodape p {
+    text-align: center;
+}
+
